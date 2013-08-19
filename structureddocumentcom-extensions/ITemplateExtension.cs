@@ -11,5 +11,9 @@ namespace com.structureddocument.extensions
         string Name { get; }
         string Description { get; }
         string Author { get; }
+
+        string[] ButtonNames { get; }
+
+        void OnClick(int buttonId);           
     }
 }
