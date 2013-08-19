@@ -29,9 +29,9 @@ namespace structureddocumentcom_sampleextension
             get { return new string[] { "Sample 1", "Sample 2" }; }
         }
 
-        public void OnClick(int buttonId, ITemplate template)
+        public void OnClick(int buttonId, IDocument template)
         {
-            //
+            
         }
     }
 }

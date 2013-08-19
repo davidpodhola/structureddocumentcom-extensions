@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace com.structureddocument.extensions
 {
-    public interface ITemplate
+    public interface IDocument
     {
         string Name { get; }
     }
