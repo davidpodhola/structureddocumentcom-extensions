@@ -14,6 +14,6 @@ namespace com.structureddocument.extensions
 
         string[] ButtonNames { get; }
 
-        void OnClick(int buttonId);           
+        void OnClick(int buttonId, ITemplate template);           
     }
 }
